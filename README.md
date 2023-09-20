@@ -3,8 +3,8 @@
 ### 교과목명 : 정보기술 빅데이터 분석
 ### 교과목명 : Python기반의 빅데이터 분석
 
+1. naver Blog Module
 ```
-<pre>
 import requests
 import json
 import urllib.request
@@ -62,6 +62,5 @@ def word_cloud(df, font_path):
     plt.imshow(wordcloud, interpolation='bilinear')
     plt.axis('off')
     plt.show()
-</pre>
 ```
 [네이버 블로그](http://blog.naver.com/5html)
